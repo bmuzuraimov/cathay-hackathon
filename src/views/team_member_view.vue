@@ -12,7 +12,7 @@
               <div class="main-box clearfix">
                   <!--Logo-->
                   <div class="logo-box">
-                       <div class="logo"><router-link to="/" title="Treker"><img src="@/assets/images/logo.svg" alt="" title="Treker"></router-link></div>
+                       <div class="logo"><router-link to="/" title="TravelSync+"><img src="@/assets/images/logo.jpeg" alt="" title="TravelSync+"></router-link></div>
                   </div>
 
                   <div class="nav-box clearfix">
@@ -38,7 +38,7 @@
                                       <ul>
                                           <li><router-link to="shop">Our Shop</router-link></li>
                                           <li><router-link to="product_single">Product Details</router-link></li>
-                                          <li><router-link to="wishlist">My Wishlist</router-link></li>
+                                          <li><router-link to="confirmation">My Confirmation</router-link></li>
                                           <li><router-link to="shopping_cart">Shopping Cart</router-link></li>
                                           <li><router-link to="checkout">Checkout</router-link></li>
                                           <li><router-link to="signup">Signup</router-link></li>
@@ -47,7 +47,7 @@
                                       </ul>
                                   </li>
                                   <li><router-link to="destinations">Destinations</router-link></li>
-                                  <li><router-link to="trekking">Trekking</router-link></li>
+                                  <li><router-link to="travelsyncking">TravelSync</router-link></li>
                                   <li class="dropdown"><router-link to="/">Pages</router-link>
                                       <ul>
                                           <li><router-link to="activities">Activities</router-link></li>
@@ -77,7 +77,7 @@
                       <div class="links-box clearfix">
                           <div class="link search-btn search-toggle"><span class="icon far fa-search"></span></div>
                           <div class="link fav-btn"><router-link to="/"><span class="icon far fa-heart"></span><span class="count">02</span></router-link></div>
-                          <div class="link cart-btn"><router-link to="/" class="clearfix"><div class="cart-info"><span class="icon far fa-shopping-cart"></span>00 Items</div></router-link></div>
+                          <div class="link cart-btn"><router-link to="/" class="clearfix"><div class="cart-info"><span class="icon far fa-shopping-cart"></span>0 Items</div></router-link></div>
                       </div>
 
                       <!-- Hidden Nav Toggler -->
@@ -123,7 +123,7 @@
       <div class="hidden-bar-wrapper">
           <div class="hidden-bar-closer"><span class="icon"><svg class="icon-close" role="presentation" viewBox="0 0 16 14"><path d="M15 0L1 14m14 0L1 0" stroke="currentColor" fill="none" fill-rule="evenodd"></path></svg></span></div>
           <div class="nav-logo-box">
-              <div class="logo"><router-link to="/" title="Treker"><img src="@/assets/images/logo.svg" alt="" title="Treker"></router-link></div>
+              <div class="logo"><router-link to="/" title="TravelSync+"><img src="@/assets/images/logo.jpeg" alt="" title="TravelSync+"></router-link></div>
           </div>
           <!-- .Side-menu -->
           <div class="side-menu">
@@ -146,7 +146,7 @@
                       <ul>
                           <li><router-link to="shop">Our Shop</router-link></li>
                           <li><router-link to="product_single">Product Details</router-link></li>
-                          <li><router-link to="wishlist">My Wishlist</router-link></li>
+                          <li><router-link to="confirmation">My Confirmation</router-link></li>
                           <li><router-link to="shopping_cart">Shopping Cart</router-link></li>
                           <li><router-link to="checkout">Checkout</router-link></li>
                           <li><router-link to="signup">Signup</router-link></li>
@@ -155,7 +155,7 @@
                       </ul>
                   </li>
                   <li><router-link to="destinations">Destinations</router-link></li>
-                  <li><router-link to="trekking">Trekking</router-link></li>
+                  <li><router-link to="travelsyncking">TravelSync</router-link></li>
                   <li class="dropdown"><router-link to="/">Pages</router-link>
                       <ul>
                           <li><router-link to="activities">Activities</router-link></li>
@@ -228,7 +228,7 @@
 
   <!-- Banner Section -->
   <section class="inner-banner">
-      <div class="image-layer" style="background-image: url(images/background/banner-image-1.jpg);"></div>
+      <div class="image-layer" style="background-image: url(/assets/images/background/banner-image-1.jpeg);"></div>
       <div class="auto-container">
           <div class="content-box">
               <h2>Tam Single</h2>
@@ -273,7 +273,7 @@
                           </div>
                           <div class="member-contact">
                               <div class="phone"><span class="icon"><img src="@/assets/images/icons/phone-1.svg" alt="" title=""></span> Phone: <router-link to="tel:+123456789">+1 234 567 89</router-link></div>
-                              <div class="phone"><span class="icon"><img src="@/assets/images/icons/email-1.svg" alt="" title=""></span> Email: <router-link to="mailto:example@treker.com">example@treker.com</router-link></div>
+                              <div class="phone"><span class="icon"><img src="@/assets/images/icons/email-1.svg" alt="" title=""></span> Email: <router-link to="mailto:example@travelsync.com">example@travelsync.com</router-link></div>
                           </div>
                           <div class="member-quote">
                               <div class="icon"><img src="@/assets/images/icons/quotes-4.svg" alt="" title=""></div>
@@ -457,7 +457,7 @@
 
   <!--Main Footer-->
   <footer class="footer-two">
-      <div class="bg-layer" style="background-image: url(images/background/footer-bg.png);"></div>
+      <div class="bg-layer" style="background-image: url(/assets/images/background/footer-bg.jpeg);"></div>
       <div class="upper-section">
           <div class="auto-container">
 
@@ -466,9 +466,9 @@
                   <div class="footer-column col-xl-4 col-lg-12 col-md-12 col-sm-12">
                       <!--Logo-->
                       <div class="footer-logo">
-                          <div class="logo"><router-link to="/" title="Treker"><img src="@/assets/images/logo.svg" alt="" title="Treker"></router-link></div>
+                          <div class="logo"><router-link to="/" title="TravelSync+"><img src="@/assets/images/logo.jpeg" alt="" title="TravelSync+"></router-link></div>
                       </div>
-                      <div class="footer-text">Treker was founded in 1991 by a group of safety-focused professionals who created The Wingman Standard for rigorously vetting air charter operators.</div>
+                      <div class="footer-text">TravelSync+ was founded in 2023 by a group of HKBU students who were passionated about to win the Cathay Hackathon</div>
                       <div class="social-links">
                           <ul class="clearfix">
                               <li><router-link to="/"><i class="fab fa-facebook-f"></i></router-link></li>
@@ -483,7 +483,7 @@
                       <div class="row clearfix">
 
                           <div class="footer-column col-lg-3 col-md-4 col-sm-12">
-                              <h6>Exlopre Treker</h6>
+                              <h6>Exlopre TravelSync+</h6>
                               <div class="links">
                                   <ul>
                                       <li><router-link to="/">Account</router-link></li>
@@ -511,8 +511,8 @@
                               <h6>Address</h6>
                               <div class="info">
                                   <ul>
-                                      <li>Europe 45 Gloucester Road London DT1M 3BF <router-link to="/">+44 (0)20 3671 5709</router-link></li>
-                                      <li>Europe 45 Gloucester Road London DT1M 3BF <router-link to="/">+44 (0)20 3671 5709</router-link></li>
+                                      <li>International Airport, 8 Scenic Rd, Lantau Island, Hong Kong <router-link to="/">+852 2747 3333</router-link></li>
+                                      <li>International Airport, 8 Scenic Rd, Lantau Island, Hong Kong <router-link to="/">+852 2747 3333</router-link></li>
                                   </ul>
                               </div>
                           </div>
@@ -526,7 +526,7 @@
       <div class="f-bottom">
           <div class="auto-container">
               <div class="inner clearfix">
-                  <div class="copyright">Copyright &copy; 2022 Treker. All Rights Reserved. Designed by ThemeIM</div>
+                  <div class="copyright">Copyright &copy; 2023 TravelSync+. All Rights Reserved.</div>
               </div>
           </div>
       </div>
@@ -536,8 +536,6 @@
 </div>
 <!--End pagewrapper--> 
 
-<!--Scroll to top-->
-<div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon"><img src="@/assets/images/icons/arrow-up.svg" alt="" title="Go To Top"></span></div>
 
 </template>
 

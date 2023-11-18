@@ -9,9 +9,9 @@ const router = createRouter({
       component: () => import('../views/about_view.vue')
     },
     {
-      path: '/activities',
-      name: 'activities',
-      component: () => import('../views/activities_view.vue')
+      path: '/hotels',
+      name: 'hotels',
+      component: () => import('../views/hotels_view.vue')
     },
     {
       path: '/blog_2',
@@ -84,9 +84,9 @@ const router = createRouter({
       component: () => import('../views/login_view.vue')
     },
     {
-      path: '/packages_2',
-      name: 'packages2',
-      component: () => import('../views/packages_2_view.vue')
+      path: '/travelspace',
+      name: 'travelspace',
+      component: () => import('../views/travelspace_view.vue')
     },
     {
       path: '/packages',
@@ -134,19 +134,19 @@ const router = createRouter({
       component: () => import('../views/terms_conditions_view.vue')
     },
     {
-      path: '/tours',
-      name: 'tours',
-      component: () => import('../views/tours_view.vue')
+      path: '/travel_experience',
+      name: 'travel_experience',
+      component: () => import('../views/travel_experience_view.vue')
     },
     {
-      path: '/trekking',
-      name: 'trekking',
-      component: () => import('../views/trekking_view.vue')
+      path: '/travelsyncking',
+      name: 'travelsyncking',
+      component: () => import('../views/travelsync_view.vue')
     },
     {
-      path: '/wishlist',
-      name: 'wishlist',
-      component: () => import('../views/wishlist_view.vue')
+      path: '/confirmation',
+      name: 'confirmation',
+      component: () => import('../views/confirmation_view.vue')
     },
   ]
 })

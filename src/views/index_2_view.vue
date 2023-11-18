@@ -12,7 +12,7 @@
               <div class="main-box clearfix">
                   <!--Logo-->
                   <div class="logo-box">
-                       <div class="logo"><router-link to="/" title="Treker"><img src="@/assets/images/logo.svg" alt="" title="Treker"></router-link></div>
+                       <div class="logo"><router-link to="/" title="TravelSync+"><img src="@/assets/images/logo.jpeg" alt="" title="TravelSync+"></router-link></div>
                   </div>
 
                   <div class="nav-box clearfix">
@@ -38,7 +38,7 @@
                                       <ul>
                                           <li><router-link to="shop">Our Shop</router-link></li>
                                           <li><router-link to="product_single">Product Details</router-link></li>
-                                          <li><router-link to="wishlist">My Wishlist</router-link></li>
+                                          <li><router-link to="confirmation">My Confirmation</router-link></li>
                                           <li><router-link to="shopping_cart">Shopping Cart</router-link></li>
                                           <li><router-link to="checkout">Checkout</router-link></li>
                                           <li><router-link to="signup">Signup</router-link></li>
@@ -47,7 +47,7 @@
                                       </ul>
                                   </li>
                                   <li><router-link to="destinations">Destinations</router-link></li>
-                                  <li><router-link to="trekking">Trekking</router-link></li>
+                                  <li><router-link to="travelsyncking">TravelSync</router-link></li>
                                   <li class="dropdown"><router-link to="/">Pages</router-link>
                                       <ul>
                                           <li><router-link to="activities">Activities</router-link></li>
@@ -77,7 +77,7 @@
                       <div class="links-box clearfix">
                           <div class="link search-btn search-toggle"><span class="icon far fa-search"></span></div>
                           <div class="link fav-btn"><router-link to="/"><span class="icon far fa-heart"></span><span class="count">02</span></router-link></div>
-                          <div class="link cart-btn"><router-link to="/" class="clearfix"><div class="cart-info"><span class="icon far fa-shopping-cart"></span>00 Items</div></router-link></div>
+                          <div class="link cart-btn"><router-link to="/" class="clearfix"><div class="cart-info"><span class="icon far fa-shopping-cart"></span>0 Items</div></router-link></div>
                       </div>
 
                       <!-- Hidden Nav Toggler -->
@@ -123,7 +123,7 @@
       <div class="hidden-bar-wrapper">
           <div class="hidden-bar-closer"><span class="icon"><svg class="icon-close" role="presentation" viewBox="0 0 16 14"><path d="M15 0L1 14m14 0L1 0" stroke="currentColor" fill="none" fill-rule="evenodd"></path></svg></span></div>
           <div class="nav-logo-box">
-              <div class="logo"><router-link to="/" title="Treker"><img src="@/assets/images/logo.svg" alt="" title="Treker"></router-link></div>
+              <div class="logo"><router-link to="/" title="TravelSync+"><img src="@/assets/images/logo.jpeg" alt="" title="TravelSync+"></router-link></div>
           </div>
           <!-- .Side-menu -->
           <div class="side-menu">
@@ -146,7 +146,7 @@
                       <ul>
                           <li><router-link to="shop">Our Shop</router-link></li>
                           <li><router-link to="product_single">Product Details</router-link></li>
-                          <li><router-link to="wishlist">My Wishlist</router-link></li>
+                          <li><router-link to="confirmation">My Confirmation</router-link></li>
                           <li><router-link to="shopping_cart">Shopping Cart</router-link></li>
                           <li><router-link to="checkout">Checkout</router-link></li>
                           <li><router-link to="signup">Signup</router-link></li>
@@ -155,7 +155,7 @@
                       </ul>
                   </li>
                   <li><router-link to="destinations">Destinations</router-link></li>
-                  <li><router-link to="trekking">Trekking</router-link></li>
+                  <li><router-link to="travelsyncking">TravelSync</router-link></li>
                   <li class="dropdown"><router-link to="/">Pages</router-link>
                       <ul>
                           <li><router-link to="activities">Activities</router-link></li>
@@ -271,7 +271,7 @@
 
           <div class="title-box centered">
               <div class="subtitle">We Are Awesome</div>
-              <h2><i class="bg-vector"></i><span>Why Choose Treker</span></h2>
+              <h2><i class="bg-vector"></i><span>Why Choose TravelSync+</span></h2>
           </div>
 
           <div class="content-box">
@@ -325,7 +325,7 @@
 
   <!--About Us Section-->
   <section class="about-two">
-      <div class="bg-layer" style="background-image: url(images/background/pattern-1.png);"></div>
+      <div class="bg-layer" style="background-image: url(/assets/images/background/pattern-1.png);"></div>
       <div class="floated-icon left"><img src="@/assets/images/resource/about-stone-two.svg" alt="" title=""></div>
       <div class="auto-container">
           <div class="row clearfix">
@@ -333,7 +333,7 @@
               <div class="text-col col-lg-6 col-md-12 col-sm-12">
                   <div class="inner wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="0ms">
                       <div class="title-box">
-                          <div class="subtitle">About Treker</div>
+                          <div class="subtitle">About TravelSync+</div>
                           <h2><i class="bg-vector"></i><span>World Best Travel Agency</span></h2>
                           <div class="text">Since 2014, we’ve helped more than 500,000 people of all ages enjoy the best outdoor experience of their lives. Whether it’s for one day or a two-week vacation, close to home or a foreign land.</div>
                       </div>
@@ -384,7 +384,7 @@
                           <div class="hvr-box">
                               <div class="cap-box">
                                   <div class="cap-inner clearfix">
-                                      <h4><router-link to="/">Rajasthan</router-link></h4>
+                                      <h4><router-link to="/">Kyrgyzstan</router-link></h4>
                                       <div class="tour-count"><span>15 Tours</span></div>
                                   </div>
                               </div>
@@ -398,7 +398,7 @@
                           <div class="hvr-box">
                               <div class="cap-box">
                                   <div class="cap-inner clearfix">
-                                      <h4><router-link to="/">Rajasthan</router-link></h4>
+                                      <h4><router-link to="/">Kyrgyzstan</router-link></h4>
                                       <div class="tour-count"><span>15 Tours</span></div>
                                   </div>
                               </div>
@@ -412,7 +412,7 @@
                           <div class="hvr-box">
                               <div class="cap-box">
                                   <div class="cap-inner clearfix">
-                                      <h4><router-link to="/">Rajasthan</router-link></h4>
+                                      <h4><router-link to="/">Kyrgyzstan</router-link></h4>
                                       <div class="tour-count"><span>15 Tours</span></div>
                                   </div>
                               </div>
@@ -426,7 +426,7 @@
                           <div class="hvr-box">
                               <div class="cap-box">
                                   <div class="cap-inner clearfix">
-                                      <h4><router-link to="/">Rajasthan</router-link></h4>
+                                      <h4><router-link to="/">Kyrgyzstan</router-link></h4>
                                       <div class="tour-count"><span>15 Tours</span></div>
                                   </div>
                               </div>
@@ -440,7 +440,7 @@
                           <div class="hvr-box">
                               <div class="cap-box">
                                   <div class="cap-inner clearfix">
-                                      <h4><router-link to="/">Rajasthan</router-link></h4>
+                                      <h4><router-link to="/">Kyrgyzstan</router-link></h4>
                                       <div class="tour-count"><span>15 Tours</span></div>
                                   </div>
                               </div>
@@ -454,7 +454,7 @@
                           <div class="hvr-box">
                               <div class="cap-box">
                                   <div class="cap-inner clearfix">
-                                      <h4><router-link to="/">Rajasthan</router-link></h4>
+                                      <h4><router-link to="/">Kyrgyzstan</router-link></h4>
                                       <div class="tour-count"><span>15 Tours</span></div>
                                   </div>
                               </div>
@@ -474,7 +474,7 @@
 
           <div class="title-box centered">
               <div class="subtitle">Shop Now</div>
-              <h2><i class="bg-vector"></i><span>Featured Trekking Products</span></h2>
+              <h2><i class="bg-vector"></i><span>Featured TravelSync Products</span></h2>
           </div>
 
           <div class="row clearfix">
@@ -686,16 +686,16 @@
 
   <!--Popular Section-->
   <section class="popular-section style-two">
-      <div class="bg-layer" style="background-image: url(images/background/image-4.jpg);"></div>
+      <div class="bg-layer" style="background-image: url(/assets/images/background/image-4.jpg);"></div>
       <div class="auto-container">
           <div class="title-box centered">
               <div class="subtitle">Modern & Beautiful</div>
-              <h2><i class="bg-vector"></i><span>Our Most Popular Trekking</span></h2>
+              <h2><i class="bg-vector"></i><span>Our Most Popular TravelSync</span></h2>
           </div>
           <div class="carousel-box">
               <div class="popular-carousel owl-theme owl-carousel">
                   <!--Block-->
-                  <div class="trek-block-one">
+                  <div class="travelsync-block-one">
                       <div class="inner-box">
                           <div class="image-box">
                               <div class="image"><router-link to="/"><img src="@/assets/images/resource/f-image-1.jpg" alt="" title=""></router-link></div>
@@ -705,7 +705,7 @@
                               </div>
                           </div>
                           <div class="lower-content">
-                              <h4><router-link to="/">Moscow Red City Land</router-link></h4>
+                              <h4><router-link to="/">Hong Kong Red City Land</router-link></h4>
                               <div class="ratings clearfix">
                                   <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
                                   <div class="rev"><router-link to="/">05 Review</router-link></div>
@@ -720,7 +720,7 @@
                   </div>
 
                   <!--Block-->
-                  <div class="trek-block-one">
+                  <div class="travelsync-block-one">
                       <div class="inner-box">
                           <div class="image-box">
                               <div class="image"><router-link to="/"><img src="@/assets/images/resource/f-image-2.jpg" alt="" title=""></router-link></div>
@@ -745,7 +745,7 @@
                   </div>
 
                   <!--Block-->
-                  <div class="trek-block-one">
+                  <div class="travelsync-block-one">
                       <div class="inner-box">
                           <div class="image-box">
                               <div class="image"><router-link to="/"><img src="@/assets/images/resource/f-image-3.jpg" alt="" title=""></router-link></div>
@@ -770,7 +770,7 @@
                   </div>
 
                   <!--Block-->
-                  <div class="trek-block-one">
+                  <div class="travelsync-block-one">
                       <div class="inner-box">
                           <div class="image-box">
                               <div class="image"><router-link to="/"><img src="@/assets/images/resource/f-image-1.jpg" alt="" title=""></router-link></div>
@@ -780,7 +780,7 @@
                               </div>
                           </div>
                           <div class="lower-content">
-                              <h4><router-link to="/">Moscow Red City Land</router-link></h4>
+                              <h4><router-link to="/">Hong Kong Red City Land</router-link></h4>
                               <div class="ratings clearfix">
                                   <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
                                   <div class="rev"><router-link to="/">05 Review</router-link></div>
@@ -795,7 +795,7 @@
                   </div>
 
                   <!--Block-->
-                  <div class="trek-block-one">
+                  <div class="travelsync-block-one">
                       <div class="inner-box">
                           <div class="image-box">
                               <div class="image"><router-link to="/"><img src="@/assets/images/resource/f-image-2.jpg" alt="" title=""></router-link></div>
@@ -820,7 +820,7 @@
                   </div>
 
                   <!--Block-->
-                  <div class="trek-block-one">
+                  <div class="travelsync-block-one">
                       <div class="inner-box">
                           <div class="image-box">
                               <div class="image"><router-link to="/"><img src="@/assets/images/resource/f-image-3.jpg" alt="" title=""></router-link></div>
@@ -845,7 +845,7 @@
                   </div>
 
                   <!--Block-->
-                  <div class="trek-block-one">
+                  <div class="travelsync-block-one">
                       <div class="inner-box">
                           <div class="image-box">
                               <div class="image"><router-link to="/"><img src="@/assets/images/resource/f-image-1.jpg" alt="" title=""></router-link></div>
@@ -855,7 +855,7 @@
                               </div>
                           </div>
                           <div class="lower-content">
-                              <h4><router-link to="/">Moscow Red City Land</router-link></h4>
+                              <h4><router-link to="/">Hong Kong Red City Land</router-link></h4>
                               <div class="ratings clearfix">
                                   <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
                                   <div class="rev"><router-link to="/">05 Review</router-link></div>
@@ -870,7 +870,7 @@
                   </div>
 
                   <!--Block-->
-                  <div class="trek-block-one">
+                  <div class="travelsync-block-one">
                       <div class="inner-box">
                           <div class="image-box">
                               <div class="image"><router-link to="/"><img src="@/assets/images/resource/f-image-2.jpg" alt="" title=""></router-link></div>
@@ -895,7 +895,7 @@
                   </div>
 
                   <!--Block-->
-                  <div class="trek-block-one">
+                  <div class="travelsync-block-one">
                       <div class="inner-box">
                           <div class="image-box">
                               <div class="image"><router-link to="/"><img src="@/assets/images/resource/f-image-3.jpg" alt="" title=""></router-link></div>
@@ -929,7 +929,7 @@
       <div class="auto-container">
           <div class="title-box centered">
               <div class="subtitle">Review & Testimonial</div>
-              <h2><i class="bg-vector"></i><span>Top Reviews for Treker</span></h2>
+              <h2><i class="bg-vector"></i><span>Top Reviews for TravelSync+</span></h2>
           </div>
           <div class="carousel-box">
               <div class="slider-box">
@@ -983,7 +983,7 @@
 
   <!--Sponsors Section-->
   <section class="sponsors-one style-two">
-      <div class="bg-layer" style="background-image: url(images/background/image-5.png);"></div>
+      <div class="bg-layer" style="background-image: url(/assets/images/background/image-5.png);"></div>
       <div class="auto-container">
           <div class="carousel-box">
               <div class="sponsors-carousel owl-theme owl-carousel">
@@ -1052,11 +1052,11 @@
   <section class="news-section style-two">
       <div class="floated-icon left"><img src="@/assets/images/resource/stones-left.svg" alt="" title=""></div>
       <div class="floated-icon right"><img src="@/assets/images/resource/stones-alt.svg" alt="" title=""></div>
-      <div class="bg-layer" style="background-image: url(images/background/image-1.jpg);"></div>
+      <div class="bg-layer" style="background-image: url(/assets/images/background/image-1.jpg);"></div>
       <div class="auto-container">
           <div class="title-box centered">
-              <div class="subtitle">Treker Top News</div>
-              <h2><i class="bg-vector"></i><span>Treker Latest News</span></h2>
+              <div class="subtitle">TravelSync+ Top News</div>
+              <h2><i class="bg-vector"></i><span>TravelSync+ Latest News</span></h2>
           </div>
           <div class="content-box">
               <div class="row clearfix">
@@ -1105,7 +1105,7 @@
 
   <!--Main Footer-->
   <footer class="footer-two">
-      <div class="bg-layer" style="background-image: url(images/background/footer-bg.png);"></div>
+      <div class="bg-layer" style="background-image: url(/assets/images/background/footer-bg.jpeg);"></div>
       <div class="upper-section">
           <div class="auto-container">
 
@@ -1114,9 +1114,9 @@
                   <div class="footer-column col-xl-4 col-lg-12 col-md-12 col-sm-12">
                       <!--Logo-->
                       <div class="footer-logo">
-                          <div class="logo"><router-link to="/" title="Treker"><img src="@/assets/images/logo.svg" alt="" title="Treker"></router-link></div>
+                          <div class="logo"><router-link to="/" title="TravelSync+"><img src="@/assets/images/logo.jpeg" alt="" title="TravelSync+"></router-link></div>
                       </div>
-                      <div class="footer-text">Treker was founded in 1991 by a group of safety-focused professionals who created The Wingman Standard for rigorously vetting air charter operators.</div>
+                      <div class="footer-text">TravelSync+ was founded in 2023 by a group of HKBU students who were passionated about to win the Cathay Hackathon</div>
                       <div class="social-links">
                           <ul class="clearfix">
                               <li><router-link to="/"><i class="fab fa-facebook-f"></i></router-link></li>
@@ -1131,7 +1131,7 @@
                       <div class="row clearfix">
 
                           <div class="footer-column col-lg-3 col-md-4 col-sm-12">
-                              <h6>Exlopre Treker</h6>
+                              <h6>Exlopre TravelSync+</h6>
                               <div class="links">
                                   <ul>
                                       <li><router-link to="/">Account</router-link></li>
@@ -1159,8 +1159,8 @@
                               <h6>Address</h6>
                               <div class="info">
                                   <ul>
-                                      <li>Europe 45 Gloucester Road London DT1M 3BF <router-link to="/">+44 (0)20 3671 5709</router-link></li>
-                                      <li>Europe 45 Gloucester Road London DT1M 3BF <router-link to="/">+44 (0)20 3671 5709</router-link></li>
+                                      <li>International Airport, 8 Scenic Rd, Lantau Island, Hong Kong <router-link to="/">+852 2747 3333</router-link></li>
+                                      <li>International Airport, 8 Scenic Rd, Lantau Island, Hong Kong <router-link to="/">+852 2747 3333</router-link></li>
                                   </ul>
                               </div>
                           </div>
@@ -1174,7 +1174,7 @@
       <div class="f-bottom">
           <div class="auto-container">
               <div class="inner clearfix">
-                  <div class="copyright">Copyright &copy; 2022 Treker. All Rights Reserved. Designed by ThemeIM</div>
+                  <div class="copyright">Copyright &copy; 2023 TravelSync+. All Rights Reserved.</div>
               </div>
           </div>
       </div>
@@ -1184,8 +1184,6 @@
 </div>
 <!--End pagewrapper--> 
 
-<!--Scroll to top-->
-<div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon"><img src="@/assets/images/icons/arrow-up.svg" alt="" title="Go To Top"></span></div>
 
 </template>
 
