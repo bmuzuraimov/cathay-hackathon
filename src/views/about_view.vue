@@ -20,7 +20,7 @@
                       <div class="nav-outer clearfix">         
                           <nav class="main-menu">
                               <ul class="navigation clearfix">
-                                  <li class="dropdown"><router-link to="/">Home</router-link>
+                                  <li class="dropdown"><router-link to="/">Homee</router-link>
                                       <ul>
                                           <li><router-link to="/">Home 01</router-link></li>
                                           <li><router-link to="index_2">Home 02</router-link></li>
