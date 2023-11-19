@@ -89,7 +89,7 @@
     <div v-if="showSettlement">
       <h3>Settlement Details</h3>
       <ul>
-        <li v-for="(name, amount) in settlement">{{ amount }} owes you {{ name }}</li>
+        <li v-for="(amount, name) in settlement">{{ name }} owes you {{ amount }} HKD</li>
       </ul>
     </div>
   </div>
@@ -103,7 +103,10 @@ export default {
       sharedWith: '',
       description: '',
       amountSpent: 0,
-      settlement: {},
+      settlement: {
+        Ayazhan: 50,
+        Shadman: 60
+      },
       showSettlement: false
     }
   },
