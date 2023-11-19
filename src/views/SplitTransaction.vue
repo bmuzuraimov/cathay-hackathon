@@ -89,7 +89,9 @@
     <div v-if="showSettlement">
       <h3>Settlement Details</h3>
       <ul>
-        <li v-for="(amount, name) in settlement">{{ name }} owes you {{ amount }} HKD</li>
+        <li v-for="(amount, name) in settlement" :key="name">
+          {{ name }} owes you {{ amount }} HKD
+        </li>
       </ul>
     </div>
   </div>
@@ -125,18 +127,6 @@ export default {
       this.sharedWithNames = names
     },
     generateSplit() {
-      // Split the amountSpentByEach string into an array of amounts
-      const amounts = this.amountSpentByEach.split(',').map((amount) => parseFloat(amount.trim()))
-
-      // Calculate the total amount spent
-      const totalAmount = amounts.reduce((total, amount) => total + amount, 0)
-
-      // Calculate the settlement amounts
-      this.settlement = {}
-      this.sharedWithNames.forEach((name, index) => {
-        this.settlement[name] = amounts[index] - totalAmount / (this.sharedWithNames.length + 1)
-      })
-
       this.showSettlement = true
     },
     settlePayments() {
