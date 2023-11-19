@@ -25,7 +25,7 @@
                                   <li class="dropdown"><router-link to="travel_experiences">Travel Experiences</router-link></li>
                                   <li><router-link to="destinations">Destinations</router-link></li>
                                   <li><router-link to="travelsyncking">TravelSync</router-link></li>
-                                  <li class="dropdown"><router-link to="Split-Transaction">Split</router-link>
+                                  <li class="dropdown"><router-link to="/splitTransaction">Split</router-link>
                                       <ul>
                                           <li><router-link to="blog">Our Blog</router-link></li>
                                           <li><router-link to="blog_2">Blog Classic</router-link></li>
